@@ -1,0 +1,7 @@
+com\deekay02\microservices\currencyexchangeservice\resource\ExchangeValueRepository.class
+com\deekay02\microservices\currencyexchangeservice\util\environment\EnvironmentConfigurationLogger.class
+com\deekay02\microservices\currencyexchangeservice\util\environment\InstanceInformationService.class
+com\deekay02\microservices\currencyexchangeservice\HelloWorld.class
+com\deekay02\microservices\currencyexchangeservice\resource\ExchangeValue.class
+com\deekay02\microservices\currencyexchangeservice\CurrencyExchangeServiceApplicationH2.class
+com\deekay02\microservices\currencyexchangeservice\resource\CurrencyExchangeController.class
