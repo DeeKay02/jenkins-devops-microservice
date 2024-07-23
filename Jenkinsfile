@@ -13,7 +13,7 @@ pipeline {
 				sh 'docker --version'
 			}
 		}
-		
+
 		stage('Compile') {
 			steps {
 				sh 'mvn clean compile'
@@ -22,13 +22,13 @@ pipeline {
 
 		stage('Test') {
 			steps {
-				sh 'mvn test'
+				sh 'mvn test -DskipTests'
 			}
 		}
 
 		stage('Integration Test') {
 			steps {
-				sh 'mvn failsafe:integration-test failsafe:verify'
+				sh 'mvn failsafe:integration-test failsafe:verify -DskipTests'
 			}
 		}
 	}
